@@ -18,7 +18,6 @@ public class Door : MonoBehaviour
 
     public void Unlock()
     {
-        // You'll need to set "locked" to true here
         locked = false;
     }
 }
