@@ -22,6 +22,8 @@ public class Key : MonoBehaviour
 
         // Call the Unlock() method on the Door
         // Destroy the key. Check the Unity documentation on how to use Destroy
+        door.GetComponent<Door>().Unlock();
+
         // Destroy the key.
         Destroy(key);
     }
