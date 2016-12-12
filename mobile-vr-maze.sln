@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mobile-vr-maze", "mobile-vr-maze.csproj", "{F8062212-3633-4518-B222-ADD236787479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mobile-vr-maze.Editor", "mobile-vr-maze.Editor.csproj", "{6C479582-4668-460C-CA1F-74A3CE8473BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8062212-3633-4518-B222-ADD236787479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8062212-3633-4518-B222-ADD236787479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8062212-3633-4518-B222-ADD236787479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8062212-3633-4518-B222-ADD236787479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C479582-4668-460C-CA1F-74A3CE8473BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C479582-4668-460C-CA1F-74A3CE8473BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C479582-4668-460C-CA1F-74A3CE8473BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C479582-4668-460C-CA1F-74A3CE8473BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
