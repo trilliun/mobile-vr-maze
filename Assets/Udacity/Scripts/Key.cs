@@ -11,8 +11,9 @@ public class Key : MonoBehaviour
 
     void Update()
 	{
-		//Bonus: Key Animation
-	}
+        // Key Animation
+        transform.Rotate(0f, 100 * Time.deltaTime, 0f);
+    }
 
 	public void OnKeyClicked()
 	{
@@ -21,7 +22,6 @@ public class Key : MonoBehaviour
         Instantiate(poof, key.transform.position, Quaternion.identity);
 
         // Call the Unlock() method on the Door
-        // Destroy the key. Check the Unity documentation on how to use Destroy
         door.GetComponent<Door>().Unlock();
 
         // Destroy the key.
